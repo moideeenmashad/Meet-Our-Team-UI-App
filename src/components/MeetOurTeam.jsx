@@ -1,22 +1,15 @@
 import React from "react";
-
+import person_1 from './img/person_01.jpg'
+import person_2 from './img/person_02.jpg'
+import person_3 from './img/person_03.jpg'
+import person_4 from './img/person_04.jpg'
+import { useState } from "react";
 const MeetOurTeam = () => {
-  const cards = document.getElementsByClassName("card");
-  let activeCard = null;
 
-  for (let i = 0; i < cards.length; i++) {
-    cards[i].addEventListener("click", function () {
-      if (activeCard !== null) {
-        activeCard.style.backgroundColor = "";
-      }
-      if (activeCard === this) {
-        activeCard = null;
-      } else {
-        this.style.backgroundColor = "white";
-        activeCard = this;
-      }
-    });
-  }
+  const linkedin = "https://www.linkedin.com/in/moideenmashad";
+  const gitHub = "https://github.com/moideeenmashad";
+  const gmail = "mailto:moideenmashad@gmail.com";
+  const [userName,setUserName] = useState("Moideen Mashad")
   return (
     <section>
       <div class="container p-5 mt-5">
@@ -31,7 +24,7 @@ const MeetOurTeam = () => {
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-3">
             <div class="card p-3">
               <div class="img-container mb-2">
-                <img src="assets/img/person_02.jpg" alt="" class="img-fluid" />
+                <img src={person_2} alt="" class="img-fluid" />
               </div>
               <p class="fw-bold text-center">
                 Keven Feil <br />
@@ -47,7 +40,7 @@ const MeetOurTeam = () => {
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-3">
             <div class="card p-3">
               <div class="img-container mb-2">
-                <img src="assets/img/person_01.jpg" alt="" class="img-fluid" />
+                <img src={person_1} alt="" class="img-fluid" />
               </div>
               <p class="fw-bold text-center">
                 Stephanie R <br />
@@ -63,7 +56,7 @@ const MeetOurTeam = () => {
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-3">
             <div class="card p-3">
               <div class="img-container mb-2">
-                <img src="assets/img/person_04.jpg" alt="" class="img-fluid" />
+                <img src={person_4} alt="" class="img-fluid" />
               </div>
               <p class="fw-bold text-center">
                 Kasey K <br />
@@ -79,7 +72,7 @@ const MeetOurTeam = () => {
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-3">
             <div class="card p-3">
               <div class="img-container mb-2 ">
-                <img src="assets/img/person_03.jpg" alt="" class="img-fluid" />
+                <img src={person_3} alt="" class="img-fluid" />
               </div>
               <p class="fw-bold text-center">
                 Astrid L <br />
@@ -94,18 +87,18 @@ const MeetOurTeam = () => {
           </div>
         </div>
       </div>
-      <p class="text-center mt-5">Designed And Developed By Moideen Mashad</p>
+      <p class="text-center mt-5">Designed And Developed By {userName}</p>
       <div class="d-flex justify-content-center mb-3">
-        <a href="https://github.com/moideeenmashad" class="pe-3 text-dark">
+        <a href={gitHub} class="pe-3 text-dark">
           <ion-icon name="logo-github"></ion-icon>
         </a>
         <a
-          href="https://www.linkedin.com/in/moideenmashad"
+          href={linkedin}
           class="pe-3 text-dark"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-        <a href="mailto:moideenmashad@gmail.com" class="pe-3 text-dark">
+        <a href={gmail} class="pe-3 text-dark">
           <ion-icon name="logo-google"></ion-icon>
         </a>
       </div>
