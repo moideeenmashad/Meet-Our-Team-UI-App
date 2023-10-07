@@ -9,7 +9,7 @@ const MeetOurTeam = () => {
   const linkedin = "https://www.linkedin.com/in/moideenmashad";
   const gitHub = "https://github.com/moideeenmashad";
   const gmail = "mailto:moideenmashad@gmail.com";
-  const [userName,setUserName] = useState("Moideen Mashad")
+  const [userName,setUserName] = useState("Moideen Mashad");
   return (
     <section>
       <div className="container p-5 mt-5">
