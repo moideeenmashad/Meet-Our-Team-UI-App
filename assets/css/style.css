@@ -1,0 +1,28 @@
+body {
+  min-height: 100% !important;
+}
+
+.container {
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  border-radius: 8px;
+}
+
+ion-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  border-bottom: 5px solid rgb(230, 229, 229);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 900ms;
+}
+
+.card:not(:hover) {
+  transition: 900ms;
+}

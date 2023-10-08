@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Meet-Our-Team-UI-App/static/css/main.073c9b0a.css",
+    "main.js": "/Meet-Our-Team-UI-App/static/js/main.c8417690.js",
+    "static/js/787.d967b2cb.chunk.js": "/Meet-Our-Team-UI-App/static/js/787.d967b2cb.chunk.js",
+    "static/media/person_03.jpg": "/Meet-Our-Team-UI-App/static/media/person_03.7aeba3b741e71c76d85b.jpg",
+    "static/media/person_04.jpg": "/Meet-Our-Team-UI-App/static/media/person_04.ac1e00314f2e89e3214a.jpg",
+    "static/media/person_01.jpg": "/Meet-Our-Team-UI-App/static/media/person_01.77afee95fbec78e7ee32.jpg",
+    "static/media/person_02.jpg": "/Meet-Our-Team-UI-App/static/media/person_02.89381ff28f99f950ddab.jpg",
+    "static/media/logo.svg": "/Meet-Our-Team-UI-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Meet-Our-Team-UI-App/index.html",
+    "main.073c9b0a.css.map": "/Meet-Our-Team-UI-App/static/css/main.073c9b0a.css.map",
+    "main.c8417690.js.map": "/Meet-Our-Team-UI-App/static/js/main.c8417690.js.map",
+    "787.d967b2cb.chunk.js.map": "/Meet-Our-Team-UI-App/static/js/787.d967b2cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c8417690.js"
+  ]
+}
